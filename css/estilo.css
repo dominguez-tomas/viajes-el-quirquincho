@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    color: #94FBAB;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+}
+header{
+    background-color: #EE6352;
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    background-color: #35c1dc;
+}
+
+
+.imgfondo{
+    background-image: url(https://transporteaconquija.com.ar/assets/imgs/sliders/slider2.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.licontainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.licontainer li{
+    list-style: none;
+    font-family: 'Bruno Ace', cursive;
+    
+}
+
+.licontainer li a{
+    text-decoration: none;
+    color: #94FBAB;
+}
+
+.logocontainer{
+    height: 60px;
+    width: 60px;
+}
+
+.logo{
+    height: 100%;
+    width: 100%;
+}
+
+.colornav{
+    background-color: #EE6352;
+}
+
+.sticky{
+    height: 50px;
+    width: 50px;
+    position: sticky;
+    left: 95%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    background-color: #EE6352;
+    height: 80px;
+}
+footer p{
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    margin-top: 30px;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+.redessocialescontainer{
+    display: flex;
+
+}
+
+.redessocialescontainer li{
+    margin-left: 10px;
+}
+
+.redescontainer{
+    height: 60px;
+    width: 60px;
+}
+
+.redes{
+    height: 100%;
+    width: 100%;
+}
+
+.ubicacion{
+    margin-left: 400px;
+    text-align: center;
+    display: flex;
+}
+.subtitulo{
+    color: #94FBAB;
+    font-size:35px;
+    font-family: 'Bruno Ace', cursive;
+    text-align: center;
+}
+
+.containermapaubi{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pcontainer{
+    color: #EE6352;
+    width: 400px;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.boton-enviar{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: rgb(108, 7, 202);
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.espacio{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.espa{
+    margin-top: 10px;
+}
+
+.licontainer a:hover{
+    color: blueviolet;
+}
+
+.form-select{
+    margin-top: 10px;
+    color: #eb14d1;
+    background-color: #35c1dc;
+    font-family: 'Bruno Ace', cursive;
+}
+
+.colorth{
+    color: #94FBAB;
+    text-align: center;
+}
+.colortd{
+    font-family: 'Bruno Ace', cursive;
+    color: white;
+    text-align: center;
+}
+
+.table-bordered{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 400px;
+}
