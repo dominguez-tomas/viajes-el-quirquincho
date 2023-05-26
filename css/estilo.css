@@ -69,10 +69,15 @@ main{
 }
 
 .sticky{
-    height: 50px;
-    width: 50px;
+    height: 80px;
+    width: 70px;
     position: sticky;
     left: 95%;
+}
+
+.logosticky{
+    height: 90%;
+    width: 95%;
 }
 
 footer{
@@ -178,4 +183,27 @@ footer ul li{
     margin-bottom: 10px;
     width: 100%;
     height: 400px;
+}
+
+.formulario{
+    width: 90%;
+    padding: 30px;
+    max-width: 1000px;
+    font-family: 'Bruno Ace', cursive;
+    color: #eb14d1;
+    font-size: medium;
+    margin: auto;
+    background-color:#35c1dc;
+    border-radius: 4px;
+    box-shadow: 7px 13px 37px #000;
+}
+
+label{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.btn-outline-light{
+    margin-left: 80px;
 }

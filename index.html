@@ -39,29 +39,58 @@
             </div>
           </nav>
     </header>
+
     <main class="imgfondo">
         <h1>VIAJES EL QUIRQUINCHO</h1>
-        <div class="containeropcion">
-            <select class="form-select" aria-label="Default select example">
-                <option selected>ORIGEN</option>
-                <option value="1">S.M. DE TUCUMAN</option>
-                <option value="2">TAFI DEL VALLE</option>
-                <option value="3">EL MOLLAR</option>
-                <option value="4">AMAICHA DEL VALLE</option>
-                <option value="5">CAFAYATE</option>
-              </select>
-        </div>
-        <div class="containeropcion2">
-            <select class="form-select" aria-label="Default select example">
-                <option selected>DESTINO</option>
-                <option value="1">S.M. DE TUCUMAN</option>
-                <option value="2">TAFI DEL VALLE</option>
-                <option value="3">EL MOLLAR</option>
-                <option value="4">AMAICHA DEL VALLE</option>
-                <option value="5">CAFAYATE</option>
-              </select>
-        </div>
-        <div class="sticky"><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1022px-WhatsApp.svg.png" alt="logo de WhatsApp"></div>
+<!-- FECHA HORA CALENDARIO -->
+            <div class="row" id="mainReservas">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                    <form class="formulario">
+                        <div class="containeropcion">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>ORIGEN</option>
+                                <option value="1">S.M. DE TUCUMAN</option>
+                                <option value="2">TAFI DEL VALLE</option>
+                                <option value="3">EL MOLLAR</option>
+                                <option value="4">AMAICHA DEL VALLE</option>
+                                <option value="5">CAFAYATE</option>
+                              </select>
+                        </div>
+                        <div class="containeropcion2">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>DESTINO</option>
+                                <option value="1">S.M. DE TUCUMAN</option>
+                                <option value="2">TAFI DEL VALLE</option>
+                                <option value="3">EL MOLLAR</option>
+                                <option value="4">AMAICHA DEL VALLE</option>
+                                <option value="5">CAFAYATE</option>
+                              </select>
+                        </div>
+
+                        <label for="personas">Cantidad de pasajeros</label>
+                        <select class="control2" name="persons" id="persons">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                        <br>
+                        <label for="hora">Hora</label>
+                        <input class="control2" type="time" name="" id="time" value="12:00" placeholder="Hora">
+                        <br>
+                        <label for="fecha">Fecha</label>
+                        <input class="control2" type="date" name="" id="date" value="2023-05-24" min="2023-05-24" max="2025-12-31" placeholder="Fecha">
+                        <input id="enviar" class="btn btn-outline-light" type="submit" value="BUSCAR">
+                        </div>
+
+        <div class="sticky"><img class="logosticky" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1022px-WhatsApp.svg.png" alt="logo de WhatsApp"></div>
     </main>
     <footer class="mediafooter">    
         <p> <h2 class="Copyright"> Argentina Copyright © 2023 - todos los derechos reservados </h2></p>
@@ -69,7 +98,6 @@
             <a href="https://www.facebook.com/"target="_self"><li class="redescontainer"><img class="redes" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/640px-Facebook_Logo_%282019%29.png" alt="logo facebook"> </li></a>
             <a href="https://www.instagram.com/"target="_self"><li class="redescontainer"><img class="redes" src="https://logotipoz.com/wp-content/uploads/2021/10/instagram-png.png" alt="logo instagram"></li></a>
             <a href="https://twitter.com/"target="_self"> <li class="redescontainer"><img class="redes" src="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-4.png" alt="logo Twitter"></li></a>
-           
         </ul>
     </footer>
     </body>
