@@ -4,13 +4,11 @@
 }
 h1{
     color: #94FBAB;
-    font: size 55px;
-}
-
-h1{
+    font-size: 50px;
     text-align: center;
     font-family: 'Shadows Into Light', cursive;
 }
+
 header{
     background-color: #EE6352;
     height: 100%;
@@ -118,12 +116,6 @@ footer ul li{
     margin-left: 400px;
     text-align: center;
     display: flex;
-}
-.subtitulo{
-    color: #94FBAB;
-    font-size:35px;
-    font-family: 'Bruno Ace', cursive;
-    text-align: center;
 }
 
 .containermapaubi{
