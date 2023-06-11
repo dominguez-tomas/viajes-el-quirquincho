@@ -1,0 +1,36 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    background-color: #EE6352;
+    height: 80px;
+
+    p {
+        text-align: center;
+        font-family: 'Shadows Into Light', cursive;
+        margin-top: 30px;
+    }
+
+    ul li {
+        list-style: none;
+    }
+
+    .redessocialescontainer {
+        display: flex;
+
+        li {
+            margin-left: 10px;
+        }
+    }
+
+    .redescontainer {
+        height: 60px;
+        width: 60px;
+
+        .redes {
+            height: 100%;
+            width: 100%;
+        }
+    }
+}

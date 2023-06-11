@@ -1,0 +1,116 @@
+@use "assets/reset";
+@use "assets/footer";
+@use "assets/navbar";
+
+header {
+    background-color: #EE6352;
+    height: 100%;
+    width: 100%;
+  }
+  
+  main {
+    width: 100%;
+    height: 100%;
+    background-color: #35c1dc;
+  }
+  
+  .imgfondo {
+    background-image: url(https://transporteaconquija.com.ar/assets/imgs/sliders/slider2.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+  }
+  
+  .ubicacion {
+    margin-left: 400px;
+    text-align: center;
+    display: flex;
+  }
+  
+  .containermapaubi {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .pcontainer {
+    color: #EE6352;
+    width: 400px;
+    font-family: 'Bruno Ace SC', cursive;
+  }
+  
+  .boton-enviar {
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: rgb(108, 7, 202);
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .espacio {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .espa {
+    margin-top: 10px;
+  }
+  
+  .licontainer a:hover {
+    color: blueviolet;
+  }
+  
+  .form-select {
+    margin-top: 10px;
+    color: #eb14d1;
+    background-color: #35c1dc;
+    font-family: 'Bruno Ace', cursive;
+  }
+  
+  .colorth {
+    color: #94FBAB;
+    text-align: center;
+  }
+  
+  .colortd {
+    font-family: 'Bruno Ace', cursive;
+    color: white;
+    text-align: center;
+  }
+  
+  .table-bordered {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 400px;
+  }
+  
+  .formulario {
+    width: 90%;
+    padding: 30px;
+    max-width: 1000px;
+    font-family: 'Bruno Ace', cursive;
+    color: #eb14d1;
+    font-size: medium;
+    margin: auto;
+    background-color: #35c1dc;
+    border-radius: 4px;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  label {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+  }
+  
+  .btn-outline-light {
+    margin-left: 80px;
+  }
