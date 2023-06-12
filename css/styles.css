@@ -201,4 +201,79 @@ label {
   margin-left: 80px;
 }
 
+@media screen and (max-width: 800px) {
+  .licontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .licontainer li {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .containermapaubi {
+    display: flex;
+    flex-direction: column;
+  }
+  .ubicacion {
+    margin-top: 10px;
+    margin-right: 200px;
+    flex-direction: row-reverse;
+  }
+  .Copyright {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .containermapaubi {
+    display: flex;
+    flex-direction: column;
+  }
+  .ubicacion {
+    margin-top: 10px;
+    margin-right: 80px;
+    flex-direction: row-reverse;
+  }
+  .Copyright {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .licontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .licontainer li {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .Copyright {
+    font-size: 13px;
+  }
+  .redessocialescontainer li {
+    height: 48px;
+    width: 48px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .containermapaubi {
+    display: flex;
+    flex-direction: column;
+  }
+  .ubicacion {
+    margin-top: 10px;
+    margin-right: 8px;
+    margin-left: 400px;
+    flex-direction: row-reverse;
+  }
+}
+@media screen and (max-width: 430px) {
+  #enviar {
+    margin-left: 10px;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
