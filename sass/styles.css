@@ -156,7 +156,7 @@ main {
 .form-select {
   margin-top: 10px;
   color: #eb14d1;
-  background-color: #35dcd2;
+  background-color: #35c1dc;
   font-family: "Bruno Ace", cursive;
 }
 
@@ -200,9 +200,33 @@ label {
 .btn-outline-light {
   margin-left: 80px;
 }
-.redessocialescontainer{
+
+ul {
+  list-style: none;
+}
+
+.containerlogoprovincias {
+  display: flex;
+  flex-direction: row;
+}
+.containerlogoprovincias ul {
+  margin-left: 10px;
+  background-color: #000;
+}
+
+.logoprovincias {
+  height: 60px;
+  width: 60px;
+}
+.logoprovincias .provincias {
+  height: 100%;
+  width: 100%;
+}
+
+.redessocialescontainer {
   animation: slide-in-blurred-bottom 0.6s;
 }
+
 @keyframes slide-in-blurred-bottom {
   0% {
     transform: translateY(1000px) scaleY(2.5) scaleX(0.2);
@@ -217,27 +241,6 @@ label {
     opacity: 1;
   }
 }
-
-ul{
-  list-style: none;
-}
-
-.containerlogoprovincias{
-  display: flex;
-  flex-direction: row;
-}
-.logoprovincias{
-  height: 150px;
-  width: 400px;
-  margin-top: 50px;
-  margin-left: 370px;
-}
-  .provincias {
-      height: 100%;
-      width: 100%;
-  }
-
-
 @media screen and (max-width: 800px) {
   .licontainer {
     display: flex;
@@ -262,19 +265,6 @@ ul{
     font-size: 20px;
   }
 }
-@media screen and (max-width: 800px)
-{
-  .containerlogoprovincias{
-    display: flex;
-    flex-direction: row;
-  }
-  .logoprovincias{
-    height: 120px;
-    width: 300px;
-    margin-top: 30px;
-    margin-left: 50px;
-  }
-  }
 @media screen and (max-width: 580px) {
   .containermapaubi {
     display: flex;
@@ -325,16 +315,5 @@ ul{
     margin-left: 10px;
   }
 }
-@media screen and (max-width: 430px){
-.containerlogoprovincias{
-  display: flex;
-  flex-direction: column;
-}
-.logoprovincias{
-  height: 110px;
-  width: 290px;
-  margin-top: 30px;
-  margin-left: 30px;
-}
-}
+
 /*# sourceMappingURL=styles.css.map */
