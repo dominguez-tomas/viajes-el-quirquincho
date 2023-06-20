@@ -295,3 +295,9 @@ header {
     height: 250px;
     }
   }
+  @media screen and (max-width: 380px){
+    .videos{
+      width: 350px;
+      height: 220px;
+      }
+  }
