@@ -405,12 +405,12 @@ ul {
     height: 250px;
   }
 }
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 390px) {
   .logoprovincias {
     margin-left: 20px;
   }
   .videos {
-    width: 350px;
+    width: 365px;
     height: 220px;
   }
   .ubicacion {
