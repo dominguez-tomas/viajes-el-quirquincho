@@ -185,6 +185,10 @@ header {
   .licontainer li{
       margin-top: 10px;
   }
+  .row {
+    --bs-gutter-x:0 rem;
+  }
+  
 }
 @media screen and (max-width: 800px) {
 
@@ -239,6 +243,9 @@ header {
   .Copyright{
     font-size: 17px;
 }
+.row {
+  --bs-gutter-x:0 rem;
+}
 }
 @media screen and (max-width: 580px){
   .containervideos{
@@ -270,6 +277,9 @@ header {
     .licontainer li{
         margin-top: 10px;
     }
+    .row {
+      --bs-gutter-x:0 rem;
+    }    
 }
 @media screen and (max-width: 430px) {
      .Copyright{
@@ -335,6 +345,9 @@ header {
     .pcontainer {
         width: 360px;
       }
+      .row {
+        --bs-gutter-x:0 rem;
+      }      
   }
 
   @media screen and (max-width: 380px){
@@ -353,4 +366,7 @@ header {
     .pcontainer {
         width: 360px;
       }
+      .row {
+        --bs-gutter-x:0 rem;
+      }      
   }

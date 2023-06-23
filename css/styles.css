@@ -21,6 +21,10 @@ h1 {
   width: 95%;
 }
 
+.row {
+  --bs-gutter-x:0 rem;
+}
+
 footer {
   display: flex;
   justify-content: space-around;
@@ -272,6 +276,9 @@ ul {
   .licontainer li {
     margin-top: 10px;
   }
+  .row {
+    --bs-gutter-x:0 rem;
+  }
 }
 @media screen and (max-width: 800px) {
   .containermapaubi {
@@ -323,6 +330,9 @@ ul {
   .Copyright {
     font-size: 17px;
   }
+  .row {
+    --bs-gutter-x:0 rem;
+  }
 }
 @media screen and (max-width: 580px) {
   .containervideos {
@@ -352,6 +362,9 @@ ul {
   }
   .licontainer li {
     margin-top: 10px;
+  }
+  .row {
+    --bs-gutter-x:0 rem;
   }
 }
 @media screen and (max-width: 430px) {
@@ -417,6 +430,9 @@ ul {
   .pcontainer {
     width: 360px;
   }
+  .row {
+    --bs-gutter-x:0 rem;
+  }
 }
 @media screen and (max-width: 380px) {
   .logoprovincias {
@@ -431,6 +447,9 @@ ul {
   }
   .pcontainer {
     width: 360px;
+  }
+  .row {
+    --bs-gutter-x:0 rem;
   }
 }
 
