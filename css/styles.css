@@ -443,10 +443,13 @@ ul {
     height: 220px;
   }
   .ubicacion {
-    margin-left: 360px;
+    margin-left: 368px;
   }
   .pcontainer {
     width: 360px;
+  }
+  #enviar {
+    margin-left: 4px;
   }
   .row {
     --bs-gutter-x:0 rem;
